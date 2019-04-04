@@ -1,0 +1,6 @@
+{
+  "name": "uiproject",
+  "short_name": "uiproject",
+  "start_url": "/",
+  "display": "standalone"
+}
