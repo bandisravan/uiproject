@@ -1,8 +1,26 @@
 {
+  "entrypoint": "index.html",
+  "shell": "src/uiproject-app/uiproject-app.js",
+  "sources": [
+    "src/*/*.*",
+    "package.json"
+  ],
+  "extraDependencies": [
+    "manifest.json",
+    "node_modules/@webcomponents/webcomponentsjs/**",
+    "node_modules/web-animations-js/**"
+  ],
   "npm": true,
+  "builds": [
+    {
+      "name": "es5prodcourse",
+      "preset": "es5-bundled"
+    }
+  ],
   "lint": {
     "rules": [
       "polymer-3"
     ]
   }
-}
+} 
+ 
